@@ -10,6 +10,13 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+
+            Console.Write("Укажите Ваше имя: ");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Привет, {name}, сегодня {DateTime.Now}");
+
+//            Console.WriteLine("Нажмите любую клавишу...");
+//            Console.ReadKey();
         }
     }
 }
